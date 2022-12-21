@@ -1,0 +1,65 @@
+.detailscontent {
+    --background: linear-gradient(to bottom right,rgba(0,0,64,255),#043b56);
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Chakra Petch', sans-serif;
+    font-variant: small-caps;
+    display: block;
+    background-image: linear-gradient(to bottom right,rgba(0,0,64,255),#0183c7);
+    padding: 10px 0px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.coindetails {
+    font-family: 'Chakra Petch', sans-serif;
+    border: 1px dashed white;
+    width: 70%;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 15px;
+    color: black;
+    background-color: white;
+    opacity: 0.8;
+    display: inline-block;
+    margin: 20px 20px;
+}
+
+.chartcoin {
+    display: inline-block;
+    width: 80%;
+    background-color: rgb(255, 251, 251);
+    border: 3px solid rgb(2, 141, 159);
+    padding: 10px 10px;
+    border-radius: 10px;
+    opacity: .8;
+    margin: 10px 10px;
+}
+
+.chartbtns {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+
+    button {
+        border: 1px solid black;
+        font-size: 20px;
+        background-color: rgb(2, 141, 159);
+        padding: 5px 5px;
+        border-radius: 5px;
+        margin-right: 20px;
+        font-family: 'Chakra Petch', sans-serif;
+        color: white;
+    }
+}
+
+button:focus {
+    background-color: black;
+    color: white;
+}

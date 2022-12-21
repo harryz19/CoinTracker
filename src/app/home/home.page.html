@@ -1,0 +1,29 @@
+<ion-content id="content">
+  <ion-header id="title">
+    <h3>CoinTracker 🪙</h3>
+  </ion-header>
+
+  <div class="regform">
+    <strong id="greet">Hello, Welcome Cryptophile!!</strong><br>
+    <strong id="sup">Sign Up Now</strong>
+    <form [formGroup]="regForm">
+      <input placeholder="First Name" type="text" [(ngModel)]="fname" id="fname" formControlName="fname"/>&nbsp;<input placeholder="Last Name" id="lname" [(ngModel)]="lname" type="text" formControlName="lname"/><br>
+      <span *ngIf = "firstname && firstname.invalid && firstname.touched && lastname && lastname.invalid && lastname.touched" style="color: red; font-size:12px;">FirstName and LastName should be less than 10 letters.</span>
+
+      <input placeholder="Email Address" [(ngModel)]="email" type="email" formControlName="email"><br>
+      <span *ngIf = "emailadd && emailadd.invalid && emailadd.touched" style="color: red; font-size:12px;">Enter valid email address.</span>
+      
+      <input placeholder="Mobile (with country code)" [(ngModel)]="mobile" type="text" formControlName="mobile"><br>
+      <span *ngIf = "mobilenum && mobilenum.invalid && mobilenum.touched" style="color: red; font-size:12px;">Enter valid mobile number.</span>
+
+      <input placeholder="Set your Username" [(ngModel)]="uname" type="text" formControlName="uname"><br>
+      <span *ngIf = "username && username.invalid && username.touched" style="color: red; font-size:12px;">Username must be less than 10 characters.</span>
+
+      <input placeholder="Set your Password" type="password" [(ngModel)]="pass" formControlName="pass"><br>
+      <span *ngIf = "password && password.invalid && password.touched" style="color: red; font-size:12px;">Password must be of minimum 8 characters.</span>
+
+      <input value="Sign Up" type="button" (click)="signedup()" id="submit" name="signup">
+    </form>
+    <p>Already Signed Up? <a href="/login">Sign In</a></p>
+  </div>
+</ion-content>

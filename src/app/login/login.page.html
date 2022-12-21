@@ -1,0 +1,14 @@
+<ion-content id="content">
+  <ion-header id="title">
+    <h3>CoinTracker 🪙</h3>
+  </ion-header>
+
+  <div class="loginform">
+    <strong>Sign In to CoinTracker 🪙</strong>
+    <form [formGroup]="loginForm">
+      <input placeholder="Username" name="uname" [(ngModel)]="uname" type="text" formControlName="uname"><br>
+      <input placeholder="Password" name="pass" [(ngModel)]="pass" type="password" formControlName="pass"><br>
+      <input value="Sign In" (click)="login()" type="button" id="submit">
+    </form>
+  </div>    
+</ion-content>

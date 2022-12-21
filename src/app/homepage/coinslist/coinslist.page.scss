@@ -1,0 +1,92 @@
+h4 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Chakra Petch', sans-serif;
+    font-variant: small-caps;
+    display: block;
+    background-image: linear-gradient(to bottom right,rgba(0,0,64,255),#0183c7);
+    padding: 10px 0px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.banner {
+  background-image: url('../../../assets/backcryp.jpg');
+  height: 500px;
+  width: 100%;
+}
+
+#trendhead {
+  text-align: center;
+  color: white;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: xx-large;
+  padding: 10px 10px;
+  text-decoration: underline;
+}
+
+.tcoin {
+  text-align: center;
+  width: 130px;
+  height: 170px;
+  background-color: white;
+  padding: 10px 10px;
+  opacity: .8;
+  border-radius: 7px;
+  margin-bottom: 30px;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.topcoins {
+  display: grid;
+  grid-template-columns: 130px 130px 130px 130px 130px;
+  column-gap: 40px;
+  justify-content: center;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 20px;
+  width: 100%;
+  color: white;
+}
+
+#searchc {
+  padding: 7px;
+  font-family: 'Chakra Petch', sans-serif;
+  margin: 0px 5px;
+}
+
+td,
+th {
+  width: 25%;
+}
+
+:host ::ng-deep .mat-sort-header-content {
+  color: #fff;
+}
+
+:host ::ng-deep .mat-paginator-outer-container {
+  background-image: linear-gradient(to bottom right,rgba(0,0,64,255),#0183c7);
+  color: #fff;
+}
+
+:host ::ng-deep tr.mat-header-row {
+  background-image: linear-gradient(to bottom right,rgba(0,0,64,255),#0183c7);
+  text-align: center;
+}
+
+:host ::ng-deep tr.mat-row {
+  height: 60px;
+  color: white;
+  cursor: pointer;
+}
+
+.cointable {
+  background-image: url('../../../assets/backcryp.jpg');
+}

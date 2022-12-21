@@ -1,0 +1,19 @@
+<ion-content>
+  <ion-header id="title">
+    <h4>News Section</h4>
+  </ion-header>
+
+  <div *ngFor="let cnews of cryptonews">
+    <ion-card href="{{cnews.url}}" target="_blank">
+      <ion-img *ngIf="cnews.urlToImage" src= "{{ cnews.urlToImage }}"></ion-img>
+      <ion-card-header>
+        <ion-card-subtitle>{{ cnews.source.name}}</ion-card-subtitle>
+        <ion-card-title>{{ cnews.title }}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        {{ cnews.description }}
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+</ion-content>

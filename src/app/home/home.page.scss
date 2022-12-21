@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  text-align: center;
+  --background: url('../../assets/backcryp.jpg') 0 0/100% 100% no-repeat;
+}
+
+h3 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: 'Chakra Petch', sans-serif;
+  font-variant: small-caps;
+  display: block;
+  background-image: linear-gradient(to bottom right,rgba(0,0,64,255),#0183c7);
+  padding: 10px 0px;
+  color: white;
+  margin-top: 0;
+}
+
+.regform  {
+  display: inline-block;
+  padding: 50px 50px;
+  text-align: start;
+  margin-top: 30px;
+  border-radius: 7px;
+  background-color: white;
+  opacity: 0.90;
+}
+
+strong {
+  font-size: 25px;
+  font-family: 'Chakra Petch', sans-serif;  
+  font-weight: bolder;
+}
+
+input {
+  font-size: 20px;
+  font-family: 'Chakra Petch', sans-serif;
+  margin: 5px 0px;
+  border: 1px solid rgb(102, 102, 102);
+  border-radius: 7px;
+  padding: 3px 3px;
+  width: 100%;
+}
+
+#fname, #lname {
+  width: 49.5%;
+}
+
+input:focus {
+  border: 2px solid black;
+}
+
+label {
+  font-size: 20px;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+span {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+p {
+  font-family: 'Chakra Petch', sans-serif;
+  margin: 0% 20%;
+}
+
+#submit {
+  background-color: black;
+  color: white;
+  padding: 5px 5px;
+}
+
+#submit:hover {
+  background-color: rgb(31, 114, 239);
+  color: white;
+  border: 1px solid rgb(85, 147, 241);
+}
+
+#title {
+  position: sticky;
+  top: 0%;
+}

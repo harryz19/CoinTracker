@@ -1,0 +1,7 @@
+{
+  "name": "Cointracker",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
